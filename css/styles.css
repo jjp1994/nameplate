@@ -1,0 +1,118 @@
+/********************
+YOUR STYLES
+*******************/
+
+
+body {
+    background-image: url("");
+}
+
+
+h1 {
+ color: whitesmoke;   
+ text-shadow: 5px 3px 8px #4682B4;
+ font-family: "Black Ops One";
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+h3 {
+color: white;   
+text-shadow: 3px 1px 2px #4682B4;
+font-family: "Black Ops One";
+	font-size: 39px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    
+    
+    
+    
+}
+
+
+
+
+
+/************************************************************/
+
+/* Layout */
+* { box-sizing: border-box; }
+
+section {
+  /* Fallback: Floated in No JS */
+  float: left;
+  padding: 1em;
+}
+
+/* clearfix */
+section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+article {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* Masonry Styling */
+section {
+  background: rgba(183, 182, 182, 0.75);
+  border: 1px solid black;
+  /* vertical space between */
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.tall {
+  height: 600px;
+}
+
+.med {
+  height: 400px;
+}
+
+.short {
+  height: 200px;
+}
+
+/********************
+MEDIA QUERIES
+*******************/
+
+
+/* Desktop */
+
+@media (min-width: 1200px) {}
+
+
+/* Tablet */
+
+@media (min-width: 768px) {}
+
+
+/* Mobile */
+
+@media (min-width: 480px) {}
