@@ -7,7 +7,13 @@ body {
     background-image: url("http://www.techtapper.com/wp-content/uploads/2013/08/Cool-Backgrounds-Background-HD-Wallpaper.jpg");
 }
 
-
+p{
+   font-size: 18px; 
+   font-style: oblique;
+   color:aliceblue; 
+text-shadow: 1px 1px 1px #4682B4; 
+    
+}
 h1 {
  color: whitesmoke;   
  text-shadow: 5px 3px 8px #4682B4;
@@ -17,15 +23,35 @@ h1 {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-    
-    
-    
-    
-    
-    
-    
+      
 
 }
+
+
+ 
+
+
+   .fade:hover {
+      color: gold;
+       transition: 1s ease-in-out;
+       
+      }   
+    
+
+@keyframes hover.fade {
+    0% {
+        
+        opacity: 0;
+    }
+    100% {
+        
+        opacity: .5;
+        color: aqua;
+    }
+}
+
+
+
 
 
 h3 {
@@ -43,10 +69,42 @@ font-family: "Black Ops One";
     
 }
 
+a, a:visited {
+    color: white
+    
+    
+}
+
+a:hover {
+    color: gold;
+    
+}
+
+
+
+li {
+    font-style: oblique;
+    color:white;
+    text-shadow: 2px 1px 2px #4682B4;
+    
+}
 
 
 
 
+.face li {
+    color: white;
+   
+    text-shadow: 2px 1px 2px grey;  
+}
+
+
+.track {
+    color: gold;
+    text-shadow: 2px 1px 2px grey;    
+    
+    
+}
 /************************************************************/
 
 /* Layout */
